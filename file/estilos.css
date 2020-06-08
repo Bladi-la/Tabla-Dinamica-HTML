@@ -1,0 +1,51 @@
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container-b{
+    width: 98%;
+    margin: auto;
+}
+.form-control{
+    display: inline-block;
+    padding: 0;
+    margin: .5em;
+    width: 23%;
+    text-align: left;
+}
+.form-control input,table input{
+    margin: 2%;
+    padding: .5em;
+    border-radius: 5px;
+}
+.form-control input[type="text"]{
+    width: 95%;
+    margin: auto;
+}
+.form-control label{
+    display: inline-block;
+    margin: .5em 0;
+}
+.form-control input:focus{
+    border: solid 3px steelblue;
+    border-radius: 5px;
+}
+ input[type="button"]:hover,input[type="button"]:focus{
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+}
+table{
+    width: 96%;
+    margin: auto;
+}
+table #tname, #tlast-name{
+    width: 26%;
+}
+table #tedit, #tdelete,#tedge{
+    width: 16%;
+    margin: auto;
+}
+table thead tr th{
+    text-align: left;
+}
